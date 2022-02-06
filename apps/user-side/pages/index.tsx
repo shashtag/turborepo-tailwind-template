@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Button } from 'ui/Button'
+
 
 const Home = () => (
   <div className="flex min-h-screen flex-col items-center justify-center py-2">
@@ -7,7 +7,6 @@ const Home = () => (
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <Button />
   </div>
 )
 
