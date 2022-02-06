@@ -1,0 +1,31 @@
+{
+  "name": "user",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint pages --fix"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.15",
+    "@types/react": "^17.0.39",
+    "autoprefixer": "^10.4.2",
+    "config": "*",
+    "eslint": "^8.8.0",
+    "next-transpile-modules": "^9.0.0",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.1",
+    "tailwindcss": "^3.0.18",
+    "tsconfig": "*",
+    "typescript": "^4.5.5"
+  }
+}
